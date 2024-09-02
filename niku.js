@@ -20,8 +20,8 @@ function momoPartSelect() {
   const rawMeatImage = document.getElementById("rawMeatImage"); 
   const cookedMeatImage = document.getElementById("cookedMeatImage");
   //console.log(newImg);
-  rawMeatImage.src = 'img_deta/momo_nama.jpeg';
-  cookedMeatImage.src = 'img_deta/momo.jpg';
+  rawMeatImage.src = 'momo_nama.jpeg';
+  cookedMeatImage.src = 'momo.jpg';
 }
 
 // ももにくボタン押したら
@@ -45,8 +45,8 @@ muneBotton.addEventListener("click", munePartSelect);
 function tebaPartSelect() {
   const rawMeatImage = document.getElementById("rawMeatImage"); 
   const cookedMeatImage = document.getElementById("cookedMeatImage");
-  rawMeatImage.src = 'img_deta/teba_nama.jpg';
-  cookedMeatImage.src = 'img_deta/teba.jpg';
+  rawMeatImage.src = 'teba_nama.jpg';
+  cookedMeatImage.src = 'teba.jpg';
 }
 
 // てばさきボタン押したら
@@ -57,8 +57,8 @@ tebaBotton.addEventListener("click", tebaPartSelect);
 function seseriPartSelect() {
   const rawMeatImage = document.getElementById("rawMeatImage"); 
   const cookedMeatImage = document.getElementById("cookedMeatImage");
-  rawMeatImage.src = 'img_deta/seseri_nama.jpg';
-  cookedMeatImage.src = 'img_deta/seseri.jpg';
+  rawMeatImage.src = 'seseri_nama.jpg';
+  cookedMeatImage.src = 'seseri.jpg';
 }
 
 // せせりボタン押したら
@@ -69,8 +69,8 @@ seseriBotton.addEventListener("click", seseriPartSelect);
 function rebaPartSelect() {
   const rawMeatImage = document.getElementById("rawMeatImage"); 
   const cookedMeatImage = document.getElementById("cookedMeatImage");
-  rawMeatImage.src = 'img_deta/reba_nama.jpg';
-  cookedMeatImage.src = 'img_deta/reba.jpg';
+  rawMeatImage.src = 'reba_nama.jpg';
+  cookedMeatImage.src = 'reba.jpg';
 }
 
 // ればーボタン押したら
