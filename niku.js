@@ -33,8 +33,8 @@ momoBotton.addEventListener("click", momoPartSelect);
 function munePartSelect() {
   const rawMeatImage = document.getElementById("rawMeatImage"); 
   const cookedMeatImage = document.getElementById("cookedMeatImage");
-  rawMeatImage.src = 'img_deta/mune_nama.jpeg';
-  cookedMeatImage.src = 'img_deta/mune.jpg';
+  rawMeatImage.src = 'mune_nama.jpeg';
+  cookedMeatImage.src = 'mune.jpg';
 }
 
 // むねにくボタン押したら
