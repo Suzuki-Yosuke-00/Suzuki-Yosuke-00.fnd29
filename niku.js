@@ -76,3 +76,34 @@ function rebaPartSelect() {
 // ればーボタン押したら
 let rebaBotton = document.getElementById("rebaBotton");
 rebaBotton.addEventListener("click", rebaPartSelect);
+
+// にわとりの効果音が鳴る
+function toriSound() {
+  const clickSound = document.getElementById('toriSound');
+  //audio.volume = 0.7;
+  clickSound.play();
+}
+
+// にわとりをクリックしたら
+let toriBotton = document.getElementById("toriImage");
+toriBotton.addEventListener("click", toriSound);
+
+// ぶたの効果音が鳴る
+function butaSound() {
+  const clickSound = document.getElementById('butaSound');
+  clickSound.play();
+}
+
+// ぶたをクリックしたら
+let butaBotton = document.getElementById("butaImage");
+butaBotton.addEventListener("click", butaSound);
+
+// うしの効果音が鳴る
+function cowSound() {
+  const clickSound = document.getElementById('cowSound');
+  clickSound.play();
+}
+
+// うしをクリックしたら
+let cowBotton = document.getElementById("cowImage");
+cowBotton.addEventListener("click", cowSound);
